@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEC</title>
+    <link rel="icon" type="image/x-icon" href="/image/logo.png">
+    <!-- favicon -->
+    <link rel="stylesheet"  href="stylesheet.css">
+    <!-- sheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
+</head>
+<body>
+   <section class="header">
+    <nav>
+        <a href="index.html"><img src="./image/logo.png" </a>
+        <div class="nav-links" id="navlinks">
+            <i class=" fa fa-sharp fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">PLACEMENTS</a></li>
+            </ul>
+        </div>
+        <i class=" fa fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>krishna Engineering College</h1>
+        <p>
+           We are breathing and living the phrase –<strong>‘no two days are alike’.</strong> <br>Krishna Engineering College (KEC) has always been on getting geared up today to tackle tomorrow and redefine it.
+        </p>
+        <a href="" class="hero-btn">Visit us</a>
+    </div>
+   </section>
+
+   <!-- course -->
+
+<section class="course">
+    <h1>Course We Offer</h1>
+ 
+    <div class="row">
+        <div class="course-col">
+            <h3>B-Tech in CSE</h3>
+            <p>We live in an era where technology plays an important role in several aspects of life, and so the many skills provided with this degree are in high demand.</p>
+        </div>
+        <div class="course-col">
+            <h3>MCA</h3>
+            <p>An MCA makes you eligible to choose your professional path based on your interests and technical skills. This degree equips learners with strong technical skills and solid knowledge of computers, programming languages and their architecture, and operating systems.</p>
+        </div>
+        <div class="course-col">
+            <h3>B-Tech in AI</h3>
+            <p>tudents find recruitment as a research engineer, business intelligence developer, machine learning engineer, data scientist, and many more. The top recruiters for AI experts in India are Nokia, Microsoft, Google, Amazon, and other globally well-known IT brands</p>
+        </div>
+    </div>
+</section>
+
+<section class="campus">
+    <h1>Our Campus</h1>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="./image/lib.jpg">
+            <div class="layer">
+                <h3>LIBRARY</h3>
+            </div>
+
+        </div>
+        <div class="campus-col">
+            <img src="./image/canteen.jpg">
+            <div class="layer">
+                <h3>CAFETERIA</h3>
+            </div>
+
+        </div>
+        <div class="campus-col">
+            <img src="./image/basketball.png">
+            <div class="layer">
+                <h3>BIG COURT</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- call to action -->
+<section class="call">
+    <h1>FOR ANY ENQUARY FEEL FREE TO CONTACT US</h1>
+    <a href="" class="hero-btn">REACH US</a>
+</section>
+
+<!-- footer -->
+<section class="footer">
+    <h4>About US</h4>
+    <p>To impart technical and professional knowledge in
+        various disciplines of engineering through
+        contemporary teaching-learning pedagogical process
+        supported by co-curricular activities.<br>
+        To achieve excellence in technical
+        education by providing conducive
+        environment for research and innovation.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-sharp fa-solid fa-heart fa-beat" style="color: #f50000;"></i> by YASH NAYAK</p>
+</section>
+  
+   <script>
+    var navlinks=document.getElementById("navlinks");
+    function showmenu() {
+        navlinks.style.right="0";
+    }
+    function hidemenu() {
+        navlinks.style.right="-300px";
+    }
+   </script>
+</body>
+</html>
